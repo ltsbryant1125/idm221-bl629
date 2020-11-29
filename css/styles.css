@@ -45,3 +45,15 @@ li a:hover {
     margin: 0;
     padding: 0;
 }
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    padding: 6rem 1rem 1rem;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+}
