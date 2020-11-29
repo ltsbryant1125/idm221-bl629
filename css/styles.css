@@ -4,7 +4,7 @@ html {
 }
 
 *, *:before, *:after {
-    box-sizing:inherit;
+    box-sizing: inherit;
 }
 
 body {
@@ -12,21 +12,36 @@ body {
     padding: 0;
 }
 
-ul.navigation {
+.navigation {
     list-style-type: none;
+    display: block;
+    display: inline;
+    display: flex;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
-
-li {
-    display: inline;
-}
-
-#footer {
-    position: fixed;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
     background-color: gray;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: .875rem 1rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.social_links {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
