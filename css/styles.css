@@ -50,10 +50,18 @@ li a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1rem;
-    padding: 6rem 1rem 1rem;
+    padding: 3rem 1rem 1rem;
 }
 
 .photo {
     width: 100%;
     height: auto;
+}
+
+.main {
+    line-height: 1.6rem;
+    max-width: 610px;
+}
+.resume ul {
+    list-style-type: none;
 }
