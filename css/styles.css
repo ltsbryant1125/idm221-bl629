@@ -1,9 +1,22 @@
 html {
     box-sizing: border-box;
     font-size: 100%;
-}
+ }
+
+ @font-face {
+    font-family: 'Butler_Black';
+    src: url('/fonts/Butler_Black.otf')
+ }
+
+@font-face {
+     font-family: 'Butler_Bold';
+     src: url('/fonts/butler_bold.otf');
+     font-weight: bold;
+ }
 
 body {
+    font-family: 'Butler_Black', serif;
+    font-size: 1rem;
     background-color: #FFFAF0;
     margin: 0;
     padding: 0;
@@ -60,6 +73,7 @@ hr.divider {
 }
 
 p {
+    font-family: 'Butler_Black', serif;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
