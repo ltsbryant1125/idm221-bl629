@@ -4,18 +4,18 @@ html {
  }
 
  @font-face {
-    font-family: 'Butler_Black';
-    src: url('/fonts/Butler_Black.otf')
+    font-family: 'PlayfairDisplay_Regular' ;
+    src: url('../fonts/PlayfairDisplay-Regular.otf')
  }
 
 @font-face {
-     font-family: 'Butler_Bold';
-     src: url('/fonts/butler_bold.otf');
+     font-family: 'PlayfairDisplay_Bold';
+     src: url('../fonts/PlayfairDisplay-Bold.otf');
      font-weight: bold;
  }
 
 body {
-    font-family: 'Butler_Black', serif;
+    font-family: 'PlayfairDisplay_Regular', serif;
     font-size: 1rem;
     background-color: #FFFAF0;
     margin: 0;
@@ -56,15 +56,22 @@ li a:hover {
     padding: 0;
 }
 
+h1 {
+    font-weight: bold;
+}
+
 div.intro_text {
-    padding: 11rem 3.5rem;
+    font-weight: bold;
+    padding: 7rem 3.5rem;
+    font-size: 200%;
     background-size: cover;
     display: flex;
     justify-content: center;
 }
 
 h1.Work {
-    padding: 1rem;
+    font-weight: bold;
+    padding: 0 1rem;
     text-align: center;
 }
 
